@@ -1,0 +1,219 @@
+/*
+Theme Name: Salient Child Theme
+Theme URI: http: //mysite.com/
+Description: This is a custom child theme for Salient
+Author: My Name
+Author URI: http: //mysite.com/
+Template: salient
+Version: 0.1
+*/
+#sliderr .content h2 {
+    background: #29294b;
+    padding: 10px 19px;
+    width: 25%;
+    margin-bottom: 0px;
+}
+#sliderr .content p {
+    background: url(../../../../clients.creativedesigndok.com/mambapointhotel/wp-content/uploads/2019/11/cream_03.jpg);
+    padding: 20px 21px;
+    width: 57%;
+}
+#sliderr .content p:hover {
+    background: #bd9864!IMPORTANT;
+}
+#overvew-sec .paratxt {
+    position: absolute;
+    top: 73%;
+    color: #fff;
+    text-align: center;
+    padding: 0px 13px;
+}
+#what-we-sec .colmn-whtwe {
+    padding: 0px 4%;
+}
+.icon-ok:before {
+    content: "\f00c";
+    color: #fff;
+}
+#overvew-sec img {
+    margin-top: -60px;
+	transition:.9s;
+}
+#overvew-sec img:hover {
+    transform: translateY(-10px);
+}
+#lats-sec .colm-new:hover {
+    background: #b88f57 !IMPORTANT;
+    color: #fff;
+}
+#lats-sec .colm-new:hover a{
+	color:#fff;
+}
+#lats-sec img {
+    width: 100%;
+}
+#lats-sec .colm-new {
+    background: #f4f2f2;
+    padding-bottom: 20px;
+}
+#lats-sec .frst-txt {
+    padding-left: 20px;
+    color: #fff;
+    padding-bottom: 20px;
+}
+#last-sec {
+    overflow: hidden !IMPORTANT;
+}
+#last-sec .colm-bed:hover {
+    transform: scale(1.1);
+}
+#last-sec .colm-bed {
+    padding-top: 17%;
+    padding-bottom: 2%;
+    padding-left: 12px;
+    overflow: hidden !IMPORTANT;
+    transition: .9s;
+}
+.social li {
+    display: inline-block;
+    margin-right: 10px;
+}
+#copyright .col.span_5 {
+    width: 100%;
+    height: 40px;
+}
+div#copyright p {
+    margin-top: -4px !IMPORTANT;
+}
+.trm-sec {
+    float: right;
+    position: relative;
+    top: -42px;
+}
+#footer-outer div#newsletterwidget-2 .newsletter.newsletter-widget input.newsletter-submit {
+    background: url(../../../../clients.creativedesigndok.com/namulodge/wp-content/uploads/2019/10/12434_03.jpg) no-repeat;
+    font-size: 0px;
+    padding: 12px 26px;
+    background-color: #373737 !IMPORTANT;
+    background-position: 8px;
+    border-radius: 0px !IMPORTANT;
+}
+#text-2 .textwidget i {
+    padding-right: 15px !IMPORTANT;
+}
+#footer-outer input.newsletter-email {
+    background: #fff;
+    border-radius: 0px;
+}
+div#txt-icn {
+    border-top: 2px solid;
+    padding-top: 24px !important;
+}
+
+@media (max-width: 1600px) {}
+@media (max-width: 1366px) {
+	
+#sliderr .content p {
+    width: 60%;
+}
+	#sliderr .content h2 {
+    width: 26%;
+}
+}
+@media (max-width: 1280px) {
+	#overvew-sec .paratxt {
+    position: absolute;
+    top: 64%;
+    color: #fff;
+    text-align: center;
+    padding: 0px 13px;
+}
+	#sliderr .content p {
+    width: 41%;
+    font-size: 30px !IMPORTANT;
+    line-height: 35px !IMPORTANT;
+}
+	#sliderr .content h2 {
+    width: 22%;
+    font-size: 15px !IMPORTANT;
+    line-height: 20px !IMPORTANT;
+}
+}
+@media (max-width: 1024px) {
+	#overvew-sec .paratxt {
+    position: absolute;
+    top: 64%;
+    color: #fff;
+    text-align: center;
+    padding: 0px 13px;
+    font-size: 10px;
+}
+	.nectar-fancy-ul.animated-in {
+    font-size: 10px;
+}
+	div#txt-icn h6 {
+    font-size: 13px;
+    line-height: 14px;
+}
+	#what-we-sec .colmn-whtwe {
+    padding: 40px 4%;
+}
+	#text-2 {
+    font-size: 11px;
+}
+}
+@media (max-width: 800px) {
+	#what-we-sec .furni-img {
+    width: 100%;
+}
+	#overvew-sec .paratxt {
+    position: absolute;
+    top: 79%;
+    color: #fff;
+    text-align: center;
+    padding: 0px 80px;
+    font-size: 14px;
+    right: 109px;
+}
+	#overvew-sec img {
+    margin-top: 0px;
+    transition: .9s;
+}
+	#sliderr .content p {
+    width: 70%;
+    font-size: 30px !IMPORTANT;
+    line-height: 40px !IMPORTANT;
+    padding-left: 10px !IMPORTANT;
+}
+	#sliderr .content h2 {
+    width: 34%;
+    font-size: 15px !IMPORTANT;
+    line-height: 30px !IMPORTANT;
+    padding-left: 10px !IMPORTANT;
+}
+	.nectar-slider-wrap[data-full-width="false"]:not([data-parallax="true"]) .swiper-slide .content {
+    padding: 0px 0px !IMPORTANT;
+}
+}
+@media (max-width: 768px) {}
+@media (max-width: 480px) {
+	#sliderr .content h2 {
+    width: 50%;
+    font-size: 15px !IMPORTANT;
+    line-height: 30px !IMPORTANT;
+    padding-left: 10px !IMPORTANT;
+}
+	#sliderr .content p {
+    width: 70%;
+    font-size: 18px !IMPORTANT;
+    line-height: 26px !IMPORTANT;
+    padding-left: 10px !IMPORTANT;
+    padding-top: 6px;
+}
+	#overvew-sec .paratxt{
+		display:none;
+	}
+}
+@media (max-width: 414px) {}
+@media (max-width: 375px) {}
+@media (max-width: 360px) {}
